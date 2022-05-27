@@ -1,0 +1,54 @@
+/*0123456789ABCDEF*/
+
+@font-face {
+    font-family: janda;
+    src: url(JandaManateeBubble.ttf);
+}
+
+:root{
+
+    --cor-fundo: #4975b6;
+    --cor-titulo: #222845;
+    --cor-paragrafo: #222845; 
+    --cor-link:	#a8cbe6;
+    --cor-borda: #0d7692;
+    --fonte-principal: janda;
+    --fonte-tamanho: 20px;
+
+}
+
+body {
+
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    
+}
+div {
+
+    text-align: center;
+}
+h1 {
+
+    color: var(--cor-titulo)
+    
+}
+
+img {
+    
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    border-style: groove;
+    border-color: var(--cor-borda)
+}
+
+a{
+
+    color: var(--cor-link)
+
+}
